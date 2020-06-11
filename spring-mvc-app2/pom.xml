@@ -5,17 +5,16 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mushroom</groupId>
-  <artifactId>sping-mvc-app1</artifactId>
+  <artifactId>spring-mvc-app2</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>sping-mvc-app1 Maven Webapp</name>
+  <name>spring-mvc-app2 Maven Webapp</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
-
     <spring.version>5.2.6.RELEASE</spring.version>
   </properties>
 
@@ -62,10 +61,18 @@
       <version>3.0.11.RELEASE</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+      <scope>provided</scope>
+    </dependency>
+
   </dependencies>
 
   <build>
-    <finalName>sping-mvc-app1</finalName>
+    <finalName>spring-mvc-app2</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
